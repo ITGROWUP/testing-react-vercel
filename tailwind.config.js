@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'nexa': ['Nexa'],
+        'nexa-light': ['Nexa-Light'],
+      }
+    },
   },
   plugins: [],
 }

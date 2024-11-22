@@ -1,0 +1,46 @@
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div className="flex py-10">
+      {/* Bagian Kiri */}
+      <div className="flex flex-col items-center gap-8 w-1/2">
+        <div className="text-gray-700 text-5xl font-bold pt-20">
+          <div>Lengkapi Kebutuhan</div>
+          <div>Rumah Anda</div>
+          <div>dengan <span className='text-blue-700'>ANTORMA</span></div>
+        </div>
+        <div className="text-black text-xs font-nexa-light">
+          <div>
+            Antorma menyediakan kelengkapan interior berkualitas, seperti</div>
+          <div>
+          sofa, meja, dan berbagai furnitur lainnya, yang dirancang untuk
+          </div>
+          <div>mempercantik dan meningkatkan kenyamanan ruang anda.</div>
+        </div>
+        <div className="flex gap-4 justify-start">
+          <div>
+            <a href="#" 
+            className="bg-blue-500 rounded-full text-white text-lg font-bold flex items-center justify-center w-24 h-8 hover:bg-blue-600">
+              Order
+            </a>
+          </div>
+          <div>
+            <a href="#" 
+            className="rounded-full text-black text-lg font-bold flex items-center justify-center w-32 h-8 hover:bg-blue-600 hover:text-white">
+              Cek Barang 
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Bagian Kanan */}
+      <div className="w-1/2">
+        <div className="pt-7">
+          <img src="images/object_jumbtorton.png" alt="jumbotron" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
