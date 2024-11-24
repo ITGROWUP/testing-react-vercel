@@ -1,4 +1,5 @@
 import React from 'react'
+import payment from "../assets/payment.png"
 
 const Footer = () => {
   return (
@@ -19,18 +20,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex gap-8'>
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
-            <img className='w-8' src="/images/Facebook.png" alt="facebook" />
+            <img className='w-' src={payment} alt="payment" />
         </div>
     </div>
     )

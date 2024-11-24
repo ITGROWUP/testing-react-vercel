@@ -6,12 +6,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-white px-20">
       <div className="container mx-auto px-1 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <a href="#" className="text-gray-800 text-xl font-bold">
-              <img className="w-1/3" src={logoNav} alt="" />
+              <img className="w-1/2" src={logoNav} alt="" />
             </a>
           </div>
           <div className="hidden md:flex space-x-7">

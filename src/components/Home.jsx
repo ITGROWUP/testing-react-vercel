@@ -10,7 +10,7 @@ const Home = () => {
           <div>Rumah Anda</div>
           <div>dengan <span className='text-blue-700'>ANTORMA</span></div>
         </div>
-        <div className="text-black text-5xs font-nexa-light">
+        <div className="text-black text-5xs font-outfit">
           <div>
             Antorma menyediakan kelengkapan interior berkualitas, seperti</div>
           <div>
@@ -35,8 +35,8 @@ const Home = () => {
       </div>
       {/* Bagian Kanan */}
       <div className="w-1/2 pl-10">
-        <div className="pt-7">
-          <img src="images/object_jumbtorton.png" alt="jumbotron" className='w-11/12'/>
+        <div className="pt-7 flex justify-center">
+          <img src="images/object_jumbtorton.png" alt="jumbotron" className='w-10/12'/>
         </div>
       </div>
     </div>

@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'nexa': ['Nexa'],
-        'nexa-light': ['Nexa-Light'],
+        'outfit': ['Outfit', 'sans-serif'],
       },
       backgroundImage: {
         'produk-bg' : "url(./src/assets/bg_1.png)"
