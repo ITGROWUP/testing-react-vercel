@@ -12,7 +12,7 @@ function App() {
       <Home/>
       <Product/>
       <ProdukKami />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
