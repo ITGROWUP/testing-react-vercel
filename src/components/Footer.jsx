@@ -14,8 +14,6 @@ const Footer = () => {
           <a href='#' className="text-lg font-nexa-light mb-1">Hubungi Kami</a>
           <a href='#' className="text-lg font-nexa-light mb-1">Lainnya</a>
         </div>
-        <div className='flex gap-8'>
-            {/* <img className='w-' src={payment} alt="payment" /> */}
         {/* Kolom 2 */}
         <div className="flex flex-col text-center sm:text-left">
           <a href='#' className="text-xl mb-5">Tentang Perusahaan</a>

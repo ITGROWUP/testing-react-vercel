@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Product from "./components/Product";
 import ProdukKami from "./components/ProdukKami";
 import Ekspor from "./components/Ekspor";
+import Layanan from "./components/Layanan";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Product/>
       <ProdukKami />
       <Ekspor />
+      <Layanan/>
       <Footer/>
     </div>
   );
