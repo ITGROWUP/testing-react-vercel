@@ -5,13 +5,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white fixed w-full top-0 z-50 shadow-md">
+    <nav className="bg-white fixed w-full top-0 z-50 shadow-md px-20 py-1">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center ">
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="text-gray-800 text-xl font-bold">
-              <img className="w-24" src={logoNav} alt="Logo" />
+              <img className="w-[70%]" src={logoNav} alt="Logo" />
             </a>
           </div>
 
@@ -19,25 +19,25 @@ const Navbar = () => {
           <div className="hidden lg:flex space-x-6">
             <a
               href="#"
-              className="text-black text-lg font-semibold hover:text-blue-500"
+              className="text-black text-lg font-light hover:text-blue-500"
             >
               Home
             </a>
             <a
               href="#"
-              className="text-black text-lg font-semibold hover:text-blue-500"
+              className="text-black text-lg font-light hover:text-blue-500"
             >
               Barang
             </a>
             <a
               href="#"
-              className="text-black text-lg font-semibold hover:text-blue-500"
+              className="text-black text-lg font-light hover:text-blue-500"
             >
               Layanan
             </a>
             <a
               href="#"
-              className="bg-blue-500 rounded-full text-white text-lg font-semibold px-4 py-1 hover:bg-blue-600"
+              className="bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 hover:bg-blue-600"
             >
               Tanya
             </a>
@@ -84,25 +84,25 @@ const Navbar = () => {
           <div className="space-y-2 px-4 py-3 text-white">
             <a
               href="#"
-              className="block text-lg font-semibold hover:text-blue-400"
+              className="block text-lg font-light hover:text-blue-400"
             >
               Home
             </a>
             <a
               href="#"
-              className="block text-lg font-semibold hover:text-blue-400"
+              className="block text-lg font-light hover:text-blue-400"
             >
               Barang
             </a>
             <a
               href="#"
-              className="block text-lg font-semibold hover:text-blue-400"
+              className="block text-lg font-light hover:text-blue-400"
             >
               Layanan
             </a>
             <a
               href="#"
-              className="block bg-blue-500 rounded-full text-white text-lg font-semibold px-4 py-1 text-center hover:bg-blue-600"
+              className="block bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 text-center hover:bg-blue-600"
             >
               Tanya
             </a>

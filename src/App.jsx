@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
 import ProdukKami from "./components/ProdukKami";
+import Ekspor from "./components/Ekspor";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <Product/>
       <ProdukKami />
+      <Ekspor />
       <Footer/>
     </div>
   );

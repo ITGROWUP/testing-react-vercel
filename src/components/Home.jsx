@@ -7,8 +7,8 @@ const Home = () => {
         {/* Bagian Kiri */}
         <div className="flex flex-col items-start gap-8 w-full lg:w-1/2">
           <div className="text-gray-700 text-4xl lg:text-5xl font-bold pt-10 lg:pt-20">
-            <div>Lengkapi Kebutuhan</div>
-            <div>Rumah Anda</div>
+            <div>Lengkapi kebutuhan</div>
+            <div>Rumah nda</div>
             <div>
               dengan <span className="text-blue-700">ANTORMA</span>
             </div>
@@ -23,13 +23,13 @@ const Home = () => {
           <div className="flex flex-wrap gap-4 justify-start">
             <a
               href="#"
-              className="bg-blue-500 rounded-full text-white text-sm lg:text-lg font-bold flex items-center justify-center w-20 lg:w-24 h-8 hover:bg-blue-600"
+              className="bg-blue-500 rounded-full text-white text-sm lg:text-lg font-normal flex items-center justify-center w-20 lg:w-40 h-8 hover:bg-blue-600"
             >
               Order
             </a>
             <a
               href="#"
-              className="border border-blue-500 rounded-full text-blue-500 text-sm lg:text-lg font-bold flex items-center justify-center w-28 lg:w-32 h-8 hover:bg-blue-600 hover:text-white"
+              className="border border-blue-500 rounded-full text-blue-500 text-sm lg:text-lg font-normal flex items-center justify-center w-28 lg:w-40 h-8 hover:bg-blue-600 hover:text-white"
             >
               Cek Barang
             </a>

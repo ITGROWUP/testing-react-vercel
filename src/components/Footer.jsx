@@ -1,6 +1,5 @@
 import React from 'react'
 import payment from "../assets/payment.png"
-import React from "react";
 
 const Footer = () => {
   return (
@@ -10,26 +9,26 @@ const Footer = () => {
         {/* Kolom 1 */}
         <div className="flex flex-col text-center sm:text-left">
           <div className="text-xl mb-5">ANTORMA</div>
-          <div className="text-lg font-nexa-light mb-1">Pusat Bantuan</div>
-          <div className="text-lg font-nexa-light mb-1">Cek Orderan</div>
-          <div className="text-lg font-nexa-light mb-1">Hubungi Kami</div>
-          <div className="text-lg font-nexa-light mb-1">Lainnya</div>
+          <a href='#' className="text-lg font-nexa-light mb-1">Pusat Bantuan</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Cek Orderan</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Hubungi Kami</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Lainnya</a>
         </div>
         <div className='flex gap-8'>
-            <img className='w-' src={payment} alt="payment" />
+            {/* <img className='w-' src={payment} alt="payment" /> */}
         {/* Kolom 2 */}
         <div className="flex flex-col text-center sm:text-left">
-          <div className="text-xl mb-5">Tentang Perusahaan</div>
-          <div className="text-lg font-nexa-light mb-1">Work With Us</div>
-          <div className="text-lg font-nexa-light mb-1">Visi & Misi</div>
-          <div className="text-lg font-nexa-light mb-1">antorma.com</div>
+          <a href='#' className="text-xl mb-5">Tentang Perusahaan</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Work With Us</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Visi & Misi</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">antorma.com</a>
         </div>
         {/* Kolom 3 */}
         <div className="flex flex-col text-center sm:text-left">
           <div className="text-xl mb-5">Discover</div>
-          <div className="text-lg font-nexa-light mb-1">Jadi Mitra</div>
-          <div className="text-lg font-nexa-light mb-1">Catalog</div>
-          <div className="text-lg font-nexa-light mb-1">Tag Furniture</div>
+          <a href='#' className="text-lg font-nexa-light mb-1">Jadi Mitra</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Catalog</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">Tag Furniture</a>
         </div>
       </div>
 
