@@ -1,6 +1,5 @@
 import React from 'react'
 import payment from "../assets/payment.png"
-import React from "react";
 
 const Footer = () => {
   return (
@@ -15,8 +14,6 @@ const Footer = () => {
           <div className="text-lg font-nexa-light mb-1">Hubungi Kami</div>
           <div className="text-lg font-nexa-light mb-1">Lainnya</div>
         </div>
-        <div className='flex gap-8'>
-            <img className='w-' src={payment} alt="payment" />
         {/* Kolom 2 */}
         <div className="flex flex-col text-center sm:text-left">
           <div className="text-xl mb-5">Tentang Perusahaan</div>
