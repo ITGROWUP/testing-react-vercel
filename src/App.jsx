@@ -7,7 +7,7 @@ import ProdukKami from "./components/ProdukKami";
 
 function App() {
   return (
-    <div className="font-nexa">
+    <div className="font-body">
       <Navbar/>
       <Home/>
       <Product/>

@@ -6,11 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'outfit': ['Outfit', 'sans-serif'],
+        body: ['Outfit', 'sans-serif'],
       },
-      backgroundImage: {
-        'produk-bg' : "url(./src/assets/bg_1.png)"
-      }
     },
   },
   plugins: [],
