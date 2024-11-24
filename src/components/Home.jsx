@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="flex py-10 px-20">
+    <div className="flex py-10 px-20 mb-20">
       {/* Bagian Kiri */}
       <div className="flex flex-col items-start gap-8 w-1/2">
         <div className="text-gray-700 text-5xl font-bold pt-20">
@@ -34,9 +34,9 @@ const Home = () => {
         </div>
       </div>
       {/* Bagian Kanan */}
-      <div className="w-1/2">
+      <div className="w-1/2 pl-10">
         <div className="pt-7">
-          <img src="images/object_jumbtorton.png" alt="jumbotron" />
+          <img src="images/object_jumbtorton.png" alt="jumbotron" className='w-11/12'/>
         </div>
       </div>
     </div>
