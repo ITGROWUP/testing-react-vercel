@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         'nexa': ['Nexa'],
         'nexa-light': ['Nexa-Light'],
+      },
+      backgroundImage: {
+        'produk-bg' : "url(./src/assets/bg_1.png)"
       }
     },
   },
