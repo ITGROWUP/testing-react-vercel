@@ -10,7 +10,7 @@ const ProdukKami = () => {
           Produk yang kami berikan <br className="hidden lg:block" /> sesuai dengan yang anda <br className="hidden lg:block" /> bayangkan dan bayarkan
         </h4>
         <a 
-          href="#" 
+          href="https://wa.me/6287845620888" target="_blank" 
           className="bg-white w-32 lg:w-40 xl:w-52 rounded-full text-black text-sm md:text-base lg:text-lg font-normal flex items-center justify-center h-9 py-2 hover:bg-blue-600 mt-6 lg:mt-10 mx-auto lg:mx-0">
           Cek Harga
         </a>

@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="text-xl mb-5">ANTORMA</div>
           <a href='#' className="text-lg font-nexa-light mb-1">Pusat Bantuan</a>
           <a href='#' className="text-lg font-nexa-light mb-1">Cek Orderan</a>
-          <a href='#' className="text-lg font-nexa-light mb-1">Hubungi Kami</a>
+          <a href='https://wa.me/6287845620888' target='_blank' className="text-lg font-nexa-light mb-1">Hubungi Kami</a>
           <a href='#' className="text-lg font-nexa-light mb-1">Lainnya</a>
         </div>
         {/* Kolom 2 */}
@@ -34,7 +34,9 @@ const Footer = () => {
       <div className="flex flex-col gap-6 w-full items-center text-center px-4">
         <div className="text-xl font-light">Ikuti Kami</div>
         <div className="flex gap-4 items-center justify-center">
-          <img className="w-10" src="/images/Facebook.png" alt="facebook" />
+            <a href="https://web.facebook.com/profile.php?id=100072133058904" target='_blank'>
+            <img className="w-10" src="/images/Facebook.png" alt="facebook" />
+            </a>
         </div>
         <div className="text-sm sm:text-base font-nexa-light">
           <div>
@@ -53,14 +55,6 @@ const Footer = () => {
 
       {/* Ikon Media Sosial */}
       <div className="flex flex-wrap gap-4 justify-center items-center">
-        {/* {[...Array(12)].map((_, i) => (
-          <img
-            key={i}
-            className="w-8"
-            src="/images/Facebook.png"
-            alt={`icon-${i}`}
-          />
-        ))} */}
         <img src={payment} alt="" />
       </div>
     </div>

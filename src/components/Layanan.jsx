@@ -4,7 +4,7 @@ import Langsung from '../assets/layanan_langsung.png';
 
 const Layanan = () => {
   return (
-    <div className='bg-[url("./assets/bg_2.png")] w-full h-auto lg:h-[100vh] bg-cover bg-center relative'>
+    <div id='layanan' className='bg-[url("./assets/bg_2.png")] w-full h-auto lg:h-[100vh] bg-cover bg-center relative'>
       <h1 className="text-blue-700 text-4xl md:text-5xl lg:text-6xl font-bold flex justify-center mt-8 md:mt-12 lg:mt-16">layanan</h1>
       <div className='flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-5 md:px-10 lg:px-20'>
         <div className='flex flex-col justify-center items-center'>

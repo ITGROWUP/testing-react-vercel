@@ -23,19 +23,19 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#"
+            href="#barang"
             className="text-black text-lg font-light hover:text-blue-500"
           >
             Barang
           </a>
           <a
-            href="#"
+            href="#layanan"
             className="text-black text-lg font-light hover:text-blue-500"
           >
             Layanan
           </a>
           <a
-            href="#"
+            href="https://wa.me/6287845620888" target="_blank"
             className="bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 hover:bg-blue-600"
           >
             Tanya
@@ -87,19 +87,19 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="#"
+              href="#barang"
               className="block text-lg font-light hover:text-blue-400"
             >
               Barang
             </a>
             <a
-              href="#"
+              href="#layanan"
               className="block text-lg font-light hover:text-blue-400"
             >
               Layanan
             </a>
             <a
-              href="#"
+              href="https://wa.me/6287845620888" target="_blank"
               className="block bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 text-center hover:bg-blue-600"
             >
               Tanya

@@ -8,7 +8,7 @@ import meja_makan from "../assets/set_meja.png";
 
 const Ecommerce = () => {
   return (
-    <div className="flex flex-wrap justify-center px-5 py-10 gap-6 md:px-10 lg:gap-8 lg:px-20 lg:py-20">
+    <div id="barang" className="flex flex-wrap justify-center px-5 py-10 gap-6 md:px-10 lg:gap-8 lg:px-20 lg:py-20">
       {/* Card 1 */}
       <div className="w-full sm:w-[48%] md:w-[30%] lg:w-[30%] shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-lg">
         <img className="w-full rounded-t-lg" src={Interior} alt="" />
