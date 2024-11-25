@@ -8,7 +8,7 @@ const Home = () => {
         <div className="flex flex-col items-start gap-8 w-full lg:w-1/2">
           <div className="text-gray-700 text-4xl lg:text-5xl font-bold pt-10 lg:pt-20">
             <div>Lengkapi kebutuhan</div>
-            <div>Rumah nda</div>
+            <div>Rumah anda</div>
             <div>
               dengan <span className="text-blue-700">ANTORMA</span>
             </div>
