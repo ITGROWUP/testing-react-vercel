@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-10">
       {/* Bagian Utama Footer */}
-      <div className="w-full h-auto bg-[#4800DD] flex flex-wrap justify-center sm:justify-center  gap-10 sm:gap-40 p-6 text-gray-200">
+      <div className="w-full h-auto bg-[#0345D9] flex flex-wrap justify-center sm:justify-center  gap-10 sm:gap-60 p-6 text-gray-200">
         {/* Kolom 1 */}
         <div className="flex flex-col text-center sm:text-left">
           <div className="text-xl mb-5">ANTORMA</div>
@@ -19,7 +19,7 @@ const Footer = () => {
           <a href='#' className="text-xl mb-5">Tentang Perusahaan</a>
           <a href='#' className="text-lg font-nexa-light mb-1">Work With Us</a>
           <a href='#' className="text-lg font-nexa-light mb-1">Visi & Misi</a>
-          <a href='#' className="text-lg font-nexa-light mb-1">antorma.com</a>
+          <a href='#' className="text-lg font-nexa-light mb-1">antorma.id</a>
         </div>
         {/* Kolom 3 */}
         <div className="flex flex-col text-center sm:text-left">
@@ -35,7 +35,6 @@ const Footer = () => {
         <div className="text-xl font-light">Ikuti Kami</div>
         <div className="flex gap-4 items-center justify-center">
           <img className="w-10" src="/images/Facebook.png" alt="facebook" />
-          <img className="w-10" src="/images/Facebook.png" alt="facebook" />
         </div>
         <div className="text-sm sm:text-base font-nexa-light">
           <div>
@@ -46,7 +45,7 @@ const Footer = () => {
               href="#"
               className="font-nexa-light underline block text-center"
             >
-              antorma.com
+              antorma.id
             </a>
           </div>
         </div>
@@ -54,14 +53,15 @@ const Footer = () => {
 
       {/* Ikon Media Sosial */}
       <div className="flex flex-wrap gap-4 justify-center items-center">
-        {[...Array(12)].map((_, i) => (
+        {/* {[...Array(12)].map((_, i) => (
           <img
             key={i}
             className="w-8"
             src="/images/Facebook.png"
             alt={`icon-${i}`}
           />
-        ))}
+        ))} */}
+        <img src={payment} alt="" />
       </div>
     </div>
   );
