@@ -21,11 +21,11 @@ const Keunggulan = () => {
         >
           lebih unggul ?
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-20 md:gap-8 lg:gap-12 mt-20">
+        <div className="flex flex-wrap justify-center items-center gap-[130px] md:gap-8 lg:gap-12 mt-20">
           <div
             data-aos="fade-down"
             data-aos-duration="1000"
-            className="bg-white md:bg-white w-60 h-[29vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
+            className="bg-white md:bg-white w-60 h-[35vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
           >
             <div className="flex flex-col text-gray-700 text-xl md:text-2xl lg:text-1xl font-bold justify-center items-center text-center">
               <img src={keunggulan_1} alt="" className="w-[95%]" />
@@ -36,7 +36,7 @@ const Keunggulan = () => {
           <div
             data-aos="fade-down"
             data-aos-duration="1000"
-className="bg-white md:bg-white w-60 h-[29vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
+            className="bg-white md:bg-white w-60 h-[35vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
           >
             <div className="flex flex-col text-gray-700 text-xl md:text-2xl lg:text-1xl font-bold justify-center items-center text-center">
               <img src={keunggulan_2} alt="" className="w-[95%]" />
@@ -47,7 +47,7 @@ className="bg-white md:bg-white w-60 h-[29vh] md:w-72 md:h-[30vh] rounded-[20px]
           <div
             data-aos="fade-down"
             data-aos-duration="1000"
-className="bg-white md:bg-white w-60 h-[29vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
+            className="bg-white md:bg-white w-60 h-[35vh] md:w-72 md:h-[30vh] rounded-[20px] flex justify-center items-end lg:h-[41vh]"
           >
             <div className="flex flex-col text-gray-700 text-xl md:text-2xl lg:text-1xl font-bold justify-center items-center text-center">
               <img src={keunggulan_3} alt="" className="w-[95%]" />
