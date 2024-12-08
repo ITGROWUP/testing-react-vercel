@@ -5,12 +5,12 @@ const Home = () => {
     <div className="flex justify-center">
       <div className="flex flex-col-reverse lg:flex-row justify-center mb-20 mt-10 lg:mt-32 w-[90%] lg:w-[80%]">
         {/* Bagian Kiri */}
-        <div className="flex flex-col items-start gap-8 w-full lg:w-1/2">
-          <div className="text-gray-700 text-4xl lg:text-5xl font-bold pt-10 lg:pt-20">
+        <div data-aos="fade-right" data-aos-duration="1000" className="flex flex-col items-start gap-8 w-full lg:w-1/2">
+          <div className="text-gray-700 text-4xl lg:text-5xl font-extrabold pt-10 lg:pt-20">
             <div>Lengkapi kebutuhan</div>
             <div>Rumah anda</div>
             <div>
-              dengan <span className="text-blue-700">ANTORMA</span>
+              dengan <span className="text-[#0345D9]">ANTORMA</span>
             </div>
           </div>
           <div className="text-black text-sm lg:text-base font-light">
@@ -22,14 +22,14 @@ const Home = () => {
           </div>
           <div className="flex flex-wrap gap-4 justify-start">
             <a
-              href="#"
-              className="bg-blue-500 rounded-full text-white text-sm lg:text-lg font-normal flex items-center justify-center w-20 lg:w-40 h-8 hover:bg-blue-600"
+              href="https://api.whatsapp.com/send?phone=6287845620888&text=Halo%20Antorma."
+              className="bg-[#0345D9] rounded-full text-white text-sm lg:text-lg font-normal flex items-center justify-center w-20 lg:w-40 h-8 hover:bg-blue-600"
             >
               Order
             </a>
             <a
-              href="#"
-              className="border border-blue-500 rounded-full text-blue-500 text-sm lg:text-lg font-normal flex items-center justify-center w-28 lg:w-40 h-8 hover:bg-blue-600 hover:text-white"
+              href="https://api.whatsapp.com/send?phone=6287845620888&text=Halo%20Antorma."
+              className="border border-[#0345D9] rounded-full text-[#0345D9] text-sm lg:text-lg font-normal flex items-center justify-center w-28 lg:w-40 h-8 hover:bg-blue-600 hover:text-white"
             >
               Cek Barang
             </a>
@@ -37,11 +37,11 @@ const Home = () => {
         </div>
 
         {/* Bagian Kanan */}
-        <div className="w-full lg:w-1/2 flex justify-center pt-10 lg:pt-7 order-first lg:order-none">
+        <div data-aos="fade-left" data-aos-duration="1000"  className="w-full lg:w-1/2 flex justify-center pt-10 lg:pt-7 order-first lg:order-none">
           <img
             src="images/object_jumbtorton.png"
             alt="jumbotron"
-            className="w-full sm:w-11/12"
+            className=""
           />
         </div>
       </div>

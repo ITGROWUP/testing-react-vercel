@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       {/* Ikon Media Sosial */}
-      <div className="flex flex-wrap gap-4 justify-center items-center">
+      <div className="flex flex-wrap gap-4 justify-center items-center mb-10">
         <img src={payment} alt="" />
       </div>
     </div>

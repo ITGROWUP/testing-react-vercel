@@ -1,16 +1,18 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons"; // Import the hamburger (bars) and close (times) icons
 import logoNav from "../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white fixed w-full top-0 z-50 shadow-md px-4 sm:px-6 lg:px-8 py-3">
+    <nav className="bg-white fixed w-full top-0 z-50 shadow-md px-4 sm:px-6 lg:px-[10%] py-3">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <a href="#" className="text-gray-800 text-xl font-bold">
-            <img className="w-[70px]" src={logoNav} alt="Logo" />
+            <img className="w-[50%]" src={logoNav} alt="Logo" />
           </a>
         </div>
 
@@ -35,8 +37,9 @@ const Navbar = () => {
             Layanan
           </a>
           <a
-            href="https://wa.me/6287845620888" target="_blank"
-            className="bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 hover:bg-blue-600"
+            href="https://api.whatsapp.com/send?phone=6287845620888&text=Halo%20Antorma."
+            target="_blank"
+            className="bg-[#0345D9] rounded-full text-white text-lg font-light px-4 py-1 hover:bg-blue-600"
           >
             Tanya
           </a>
@@ -48,30 +51,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="text-black focus:outline-none"
           >
-            <svg
-              className="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              {isOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              )}
-            </svg>
+            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="h-6 w-6" />
           </button>
         </div>
       </div>
@@ -99,8 +79,9 @@ const Navbar = () => {
               Layanan
             </a>
             <a
-              href="https://wa.me/6287845620888" target="_blank"
-              className="block bg-blue-500 rounded-full text-white text-lg font-light px-4 py-1 text-center hover:bg-blue-600"
+              href="https://api.whatsapp.com/send?phone=6287845620888&text=Halo%20Antorma."
+              target="_blank"
+              className="block bg-[#0345D9] rounded-full text-white text-lg font-light px-4 py-1 text-center hover:bg-blue-600"
             >
               Tanya
             </a>
